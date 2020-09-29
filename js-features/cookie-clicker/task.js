@@ -7,6 +7,6 @@ image.onclick = function() {
     }   else {
         image.width = 200;
     }
-    counter.textContent -= -1;
+    counter.textContent = Number(counter.textContent) + 1;
 };
     
